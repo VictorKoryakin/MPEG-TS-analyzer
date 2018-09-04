@@ -14,3 +14,5 @@ Define parameters:
 3) Continuity count error, zabbix key: <--key>cc. This option is cumulative and resets every 60 minutes
 The current parameter value is sent to the server every "--timeN" seconds. Sending of messages occurs using a utility zabbix_sender.
 Notice. The mpeg-ts packet length is 188 bytes.
+Example:
+mpegts_analyzer.py -m 235.2.11.1 -p 1234 -z 192.168.0.10 -s "analyzer" -k planetatv -t 30
