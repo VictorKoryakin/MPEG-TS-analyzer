@@ -1,7 +1,7 @@
 # MPEG-TS-analyzer
 MPEG-TS IP multicast analyzer
 This program receives the stream, determines some of its parameters and sends the received information to Zabbix monitoring server.
-Startup option:
+Startup options:
 "-m", "--multicast" - stream IP multicast address
 "-p", "--port", type=int   -  stream IP multicast port
 "-z", "--zabbix"  -  Zabbix server IP adress
